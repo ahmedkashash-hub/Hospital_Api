@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/Application/">
+    <Project Path="Hospital.Application/Hospital.Application.csproj" Id="fc99f6cc-9f35-465e-8793-833421d97ba2" />
+    <Project Path="Hospital.Contract/Hospital.Contract.csproj" Id="cbef7995-d659-4203-9a64-c07580a89bcf" />
+    <Project Path="Hospital.DTOs/Hospital.DTOs.csproj" Id="7730def2-b47f-4032-ba8a-baf2d8e71e67" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <File Path="Hospital.DTOs/AdminMiniResult.cs" />
+    <Project Path="Hospital.Infrastructure.Persistence/Hospital.Infrastructure.Persistence.csproj" Id="19424c24-5f65-4172-b9d3-9addd1858b65" />
+    <Project Path="Hospital.Infrastructure.Server/Hospital.Infrastructure.Server.csproj" Id="7dbb182c-c459-4e19-b589-95c721868154" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Clinic.Domain/Hospital.Domain.csproj" />
+    <Project Path="Clinic.Shared/Hospital.Shared.csproj" />
+  </Folder>
+  <Project Path="Clinic_Api/Hospital_Api.csproj" />
+</Solution>
